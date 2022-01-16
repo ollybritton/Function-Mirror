@@ -64,7 +64,6 @@ function setup() {
   videoBefore = createCapture(VIDEO);
   video = createCapture(VIDEO);
 
-  canvas.size(width, height);
   video.size(width/vScale, height/vScale);
   videoBefore.size(width, height);
   video.hide();
